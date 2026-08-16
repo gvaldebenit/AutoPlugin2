@@ -124,16 +124,15 @@ if tai.find("KERNEL", "sharpscale.skprx") and not tai.check("!AKRK00005") then
 	os.message(LANGUAGE["REPAIR_CONFIG_SHARPSCALE"])
 end
 
-if not tai.find("main", "ur0:tai/henkaku.suprx") or
-		not tai.find("NPXS10015", "ur0:tai/henkaku.suprx") or
-			not tai.find("NPXS10016", "ur0:tai/henkaku.suprx") then
-	tai.sync()
-	if back then back:blit(0,0) end
-	screen.flip()
-	os.message(LANGUAGE["REPAIR_CONFIG_TXT"])
+-- Repair henkaku: tai,sync() with safeguards
+if not tai.hasHenkakuVariant() then
+    tai.sync()  -- <-- ahora es la versión con safeguards
+    if back then back:blit(0,0) end
+    screen.flip()
+    os.message(LANGUAGE["REPAIR_CONFIG_TXT"])
 end
 
-dofile("scripts/psvita/menu_psvita.lua")
+ dofile("scripts/psvita/menu_psvita.lua")
 dofile("scripts/psp/menu_psp.lua")
 dofile("scripts/extras/menu_extras.lua")
 dofile("scripts/settings/menu_settings.lua")
