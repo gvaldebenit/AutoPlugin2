@@ -210,7 +210,7 @@ function plugins_installation(obj)
 				http.download("https://raw.githubusercontent.com/Electry/VitaGrafixPatchlist/master/patchlist.txt", "ux0:data/VitaGrafix/patchlist.txt")
 			onNetGetFile = onNetGetFileOld
 			
-			download_install("https://github.com/Kirezar/VitaGrafixConfigurator/","VitaGrafixConfigurator.vpk")
+			download_install("https://github.com/Kirezar/VitaGrafixConfigurator/releases/latest/","VitaGrafixConfigurator.vpk")
 
 		end
 

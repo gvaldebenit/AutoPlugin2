@@ -40,12 +40,13 @@ function download_install(url,name)
 				--os.message("Links "..#links)
 				for i=1,#links do
 					if links[i].href then
-						
+
 						if links[i].href:find("releases/tag/",1,true) then
-							--os.message(links[i].href)
+						--	os.message(links[i].href)
 							__file = name.." "..files.nopath(links[i].href)
 							--os.message(__file)
-							local res = http.download(url.."/releases/download/"..files.nopath(links[i].href).."/"..name,"ux0:data/AUTOPLUGIN2/vpks/"..name)
+							--os.message(files.nofile(url).."download/"..files.nopath(links[i].href).."/"..name)
+							local res = http.download(files.nofile(url).."download/"..files.nopath(links[i].href).."/"..name,"ux0:data/AUTOPLUGIN2/vpks/"..name)
 							if res.headers and res.headers.status_code == 200 and files.exists("ux0:data/AUTOPLUGIN2/vpks/"..name) then
 								__icon = get_icon0("ux0:data/AUTOPLUGIN2/vpks/"..name)
 								if __icon then __icon:center() end						
@@ -54,6 +55,7 @@ function download_install(url,name)
 								break
 							end
 						end
+
 					end
 				end
 			else
@@ -76,39 +78,39 @@ end
 function downloads()
 
 	local itls_callback = function ()
-		download_install("https://github.com/SKGleba/iTLS-Enso", "iTLS-Enso.vpk")
+		download_install("https://github.com/SKGleba/iTLS-Enso/releases/latest/", "iTLS-Enso.vpk")
 	end
 
 	local vitashell_callback = function ()
-		download_install("https://github.com/TheOfficialFloW/VitaShell", "VitaShell.vpk")
+		download_install("https://github.com/TheOfficialFloW/VitaShell/releases/latest/", "VitaShell.vpk")
 	end
 
 	local vitashell_yoti_callback = function ()
-		download_install("https://github.com/RealYoti/VitaShell/", "VitaShell.vpk")
+		download_install("https://github.com/RealYoti/VitaShell/releases/latest/", "VitaShell.vpk")
 	end
 
 	local ShaRKF00D_callback = function ()
-		download_install("https://github.com/OsirizX/ShaRKF00D", "ShaRKF00D.vpk")
+		download_install("https://github.com/OsirizX/ShaRKF00D/releases/latest/", "ShaRKF00D.vpk")
 	end
 
 	local SHARKB33D_callback = function ()
-		download_install("https://github.com/Rinnegatamante/ShaRKBR33D", "ShaRKBR33D.vpk")
+		download_install("https://github.com/Rinnegatamante/ShaRKBR33D/releases/latest/", "ShaRKBR33D.vpk")
 	end
 
 	local batteryfixer_callback = function ()
-		download_install("https://github.com/SKGleba/PSP2-batteryFixer", "batteryFixer.vpk")
+		download_install("https://github.com/SKGleba/PSP2-batteryFixer/releases/latest/", "batteryFixer.vpk")
 	end
 
 	local yamt_callback = function ()
-		download_install("https://github.com/SKGleba/yamt-vita", "yamt.vpk")
+		download_install("https://github.com/SKGleba/yamt-vita/releases/latest/", "yamt.vpk")
 	end
 
 	local onemenu_callback = function ()
-		download_install("https://github.com/ONElua/ONEMenu-for-PSVita", "ONEMenuVita.vpk")
+		download_install("https://github.com/ONElua/ONEMenu-for-PSVita/releases/latest/", "ONEMenuVita.vpk")
 	end
 
 	local psp2wpp_reload_callback = function ()
-		download_install("https://github.com/Princess-of-Sleeping/psp2wpp-reload/", "psp2wpp_reload.vpk")
+		download_install("https://github.com/Princess-of-Sleeping/psp2wpp-reload/releases/latest/", "psp2wpp_reload.vpk")
 	end
 
 	local menu = {
