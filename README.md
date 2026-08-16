@@ -73,6 +73,18 @@ You no longer need to add the line:
 Download the  *([font.pgf](https://github.com/ONElua/Autoplugin2/blob/master/font/font.pgf)).* and insert it in the path **ux0:data/Autoplugin2/font** (Remember if the font folder does not exist you have to create it) 
 This fixes missing non-standard characters, not found at english charset. Those will show as "_" instead of the unusual letter.
 
+### Changelog 2.19 ###
+## Version Updates
+- **NoNpDrm Unofficial**: `v1.4` → `v1.5` — now credited to **SuleMareVientu** (current maintainer of the fork).
+- **noled**: `v1.1` → `v2.2` — now credited to **falkenhawk** (current maintainer of the fork)..
+- **vixen**: `v1.5` → **`v2.0`** (major update).
+- **Vitacompanion**: `v1.00` → `v1.06` — now includes a **second file** (`vitacompanion_kernel.skprx`), adding kernel-level support.
+- **USBDisable**: `v3.02` → `v3.03`.
+- **ioplus.skprx** (shared file, a dependency for several plugins): standardized on the **FAPS Team / CelesteBlue** version (ioPlus 0.1)
+
+## Fixes
+- **VPKs**: fixed a bug in the downloads section that prevented `.vpk` files from downloading correctly.
+
 ### Changelog 2.18 ###
 - Search plugin option for TheHeroGAC
 - Updated NoPspEmuDrm mod for ARK-V (Acid_Snake)
