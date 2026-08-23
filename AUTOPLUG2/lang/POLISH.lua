@@ -396,6 +396,7 @@ POLISH["TURKISH"] =                                 "TURECKI"
 POLISH["INSTALLP_DESC_SD2VITA"] =                   "Automatycznie montuje / przekierowuje dowolne urządzenie pamięci do dowolnych punktów montowania (SD2VITA)"
 
 --KERNEL
+POLISH["INSTALLP_DESC_VITABTFIX"] =                 "Allows newer AirPods (and other modern bluetooth headphones) to play audio on a jailbroken PS Vita."
 POLISH["INSTALLP_DESC_VITAPRESENCE"] =              "Zmień swój Discord rich presence na aktualnie graną grę na PS Vita!"
 POLISH["INSTALLP_DESC_VITAPAD"] =                   "Użyj konsoli PlayStation Vita jako kontroler USB z wsparciem ekranu dotykowego i tylniego touchpada"
 POLISH["INSTALLP_DESC_IOSTAGING"] =                 "Poprawia sekwencyjne prędkości I/O"

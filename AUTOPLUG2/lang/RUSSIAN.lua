@@ -396,6 +396,7 @@ RUSSIAN["TURKISH"] =                                 "Турецкий"
 RUSSIAN["INSTALLP_DESC_SD2VITA"] =                   "Плагин, позволяющий изменить точки монтирования различных носителей памяти (нужен для SD2VITA)"
 
 --KERNEL
+RUSSIAN["INSTALLP_DESC_VITABTFIX"] =                 "Allows newer AirPods (and other modern bluetooth headphones) to play audio on a jailbroken PS Vita."
 RUSSIAN["INSTALLP_DESC_VITAPRESENCE"] =              "Change your Discord rich presence to your currently playing PS Vita game!"
 RUSSIAN["INSTALLP_DESC_VITAPAD"] =                   "Используйте PS Vita в качестве конроллера с поддержкой управления при помощи передней и задней сенсорной панели"
 RUSSIAN["INSTALLP_DESC_IOSTAGING"] =                 "Плагин для ускорения последовательных операций ввода-вывода"

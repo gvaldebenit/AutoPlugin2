@@ -123,6 +123,8 @@ plugins = {
   crc = 0xfba93db3, v = "Rolling Release 791a80b", version = "0001", link = "https://raw.githubusercontent.com/Hydr8gon/VitaControl/master/README.md", },
 { name = "VitaPresence by Electry", id = "VITAPRESENCE.png", path = "VitaPresence.skprx", section = "KERNEL", desc = LANGUAGE["INSTALLP_DESC_VITAPRESENCE"], KEY = "INSTALLP_DESC_VITAPRESENCE",
   crc = 0x56283F81, v = "1.0.0", version = "0001", link = "https://raw.githubusercontent.com/Electry/VitaPresence/refs/heads/master/README.md", },
+{ name = "VitaBtFix by gabew100", id = "VITABTFIX.png", path = "vitabtfix.skprx", section = "KERNEL", desc = LANGUAGE["INSTALLP_DESC_VITABTFIX"], KEY = "INSTALLP_DESC_VITABTFIX",
+  crc = 0xAB34F2AA, v = "1.1", version = "0001", link = "https://raw.githubusercontent.com/gabew100/VitaBtFix/refs/heads/main/README.md", },
 
 --Boot_config.txt
 { name = "Custom Boot Splash by Princess of Sleeping", id = "CUSTOMBOOTSPLASH.png", path = "custom_boot_splash.skprx", section = "KERNEL", desc = LANGUAGE["INSTALLP_DESC_CUSTOMBOOTSPLASH"], KEY = "INSTALLP_DESC_CUSTOMBOOTSPLASH",

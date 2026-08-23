@@ -396,6 +396,7 @@ JAPANESE["TURKISH"] =                                   "トルコ語"
 JAPANESE["INSTALLP_DESC_SD2VITA"] =                     "ストレージデバイスを必要なマウントポイントに自動的にマウント/リダイレクトするカーネルプラグイン（SD2VITA）"
 
 --KERNEL
+JAPANESE["INSTALLP_DESC_VITABTFIX"] =                   "Allows newer AirPods (and other modern bluetooth headphones) to play audio on a jailbroken PS Vita."
 JAPANESE["INSTALLP_DESC_VITAPRESENCE"] =                "Discordのリッチプレゼンスを、現在プレイ中のPS Vitaのゲームに変更する!"
 JAPANESE["INSTALLP_DESC_VITAPAD"] =                     "Vitaを、前面および背面のタッチパッド操作が可能なUSBゲームパッドとして使用します。"
 JAPANESE["INSTALLP_DESC_IOSTAGING"] =                   "VitaのシーケンシャルI/O速度を向上させるプラグイン"

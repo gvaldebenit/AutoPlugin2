@@ -396,6 +396,7 @@ ENGLISH_US["TURKISH"] =                                 "TURKISH"
 ENGLISH_US["INSTALLP_DESC_SD2VITA"] =                   "Kernel plugin that automatically mounts/redirects any storage device to any mount points you want (SD2VITA)"
 
 --KERNEL
+ENGLISH_US["INSTALLP_DESC_VITABTFIX"] =                 "Allows newer AirPods (and other modern bluetooth headphones) to play audio on a jailbroken PS Vita."
 ENGLISH_US["INSTALLP_DESC_VITAPRESENCE"] =              "Change your Discord rich presence to your currently playing PS Vita game!"
 ENGLISH_US["INSTALLP_DESC_VITAPAD"] =                   "Use your PlayStation Vita as USB gamepad with front/rear touchpad controls."
 ENGLISH_US["INSTALLP_DESC_IOSTAGING"] =                 "Plugin to improve PS Vita sequential I/O speeds"

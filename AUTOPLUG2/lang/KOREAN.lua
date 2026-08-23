@@ -396,6 +396,7 @@ KOREAN["TURKISH"] =                                 "투르키예어"
 KOREAN["INSTALLP_DESC_SD2VITA"] =                   "모든 저장 장치를 원하는 마운트 지점으로 자동 마운트/리디렉트하는 커널 플러그인 (SD2VITA)"
 
 --KERNEL
+KOREAN["INSTALLP_DESC_VITABTFIX"] =                 "Allows newer AirPods (and other modern bluetooth headphones) to play audio on a jailbroken PS Vita."
 KOREAN["INSTALLP_DESC_VITAPRESENCE"] =              "디스코드의 풍부한 존재감을 현재 플레이 중인 PS Vita 게임으로 바꿔보세요!"
 KOREAN["INSTALLP_DESC_VITAPAD"] =                   "전면/후면 터치패드 컨트롤이 포함된 USB 게임패드로 플레이스테이션 Vita를 사용하세요."
 KOREAN["INSTALLP_DESC_IOSTAGING"] =                 "PS Vita 순차 I/O 속도를 향상시키는 플러그인"
